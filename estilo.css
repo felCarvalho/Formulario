@@ -1,0 +1,248 @@
+
+/*usado para zerar margens e padding automáticos aplicados pelo HTML5*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*estilazação exclusiva da imagem*/
+
+.imagem
+{
+    border-radius: 45px;
+    width: 489px;
+    height: 471px;
+    float: left;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/*estilização do background de fundo do Formulário*/
+
+.div
+{
+    background-color:rgb(85, 6, 85);
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    padding: 25px 80px 80px;
+    border-radius: 20px;
+}
+
+/*tags necessarias do body que afetam a estrutua de todo conteudo/personalização*/
+
+body
+{
+    max-width: 1440px;
+    margin: 10px 200px;
+    font-family:cursive;
+    background-color: rgb(151, 39, 145);
+    color: white;
+    user-select: none;
+    user-zoom: none;
+}
+
+/*centralizando o titulo*/
+
+.titulo
+{
+    text-align: center;
+}
+
+/*posicionando o formulario de nome/sobrenome/nick de usuario com display:flex*/
+
+.formulário
+{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+/*personalizando os inputs de nome/sobrenome/ nick de usuário*/
+
+.inputs-text
+{
+    padding:10px 0 5px;
+    text-indent: 10px;
+    color: rgb(70, 3, 63);
+    background-color: rgb(242, 166, 238);
+    box-shadow: 0 0 5px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.inputs-text:hover
+{
+    font-style:oblique;
+    transition: all 0.5s;
+}
+/*retirando bordas do fildset que ocupa a mesma area do nome/sobrenome/nick de usuario*/
+
+.bordas-fildset
+{
+    border:none;
+}
+
+/*posicionando o formulario-pessoal sobre opção sexual com display:flex, e demais tags necessárias de estilização*/ 
+
+.formulário-pessoal
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 7px;
+}
+
+/*personalização do inputs sobre opção sexual*/
+
+.input-radio
+{
+    margin-inline: 2px;
+    cursor: pointer;
+}
+
+.input-radio-dois
+{
+    margin-inline: 10px;
+    cursor: pointer;
+}
+
+.input-radio-tres
+{
+   margin-inline: 32px;
+   cursor: pointer;
+}
+
+/*retirando bordas do fildset que ocupa a mesma area do formulãrio pessoal*/
+
+.bordas-fildset-pessoal
+{
+    border: none;
+}
+
+/*estilização do textare*/
+
+textarea
+{
+   border-radius: 10px;
+   text-indent: 10px;
+   font-size: medium;
+   font-style:oblique;
+   border: none;
+   background-color: rgb(242, 166, 238);
+   padding-top: 5px;
+   margin-top: 15px;
+   transition: all 0.6s;
+}
+
+/*estilização do botão enviar do formulário*/
+
+button
+{
+   position: absolute;
+   top: 570px;
+   left: 730px;
+   width: 6vw;
+   height: 5vh;
+   background-color: rgb(242, 166, 238);
+   box-shadow: 0 0 5px rgba(0,0,0,0.8);
+   transition: all 0.5s;
+   color: rgb(70, 3, 63);
+   border-radius: 10px;
+   border:none;
+   cursor: pointer;
+}
+
+button:hover
+{
+   color: rgb(242, 166, 238);
+   background-color: rgb(70, 3, 63);
+   box-shadow: 0 0 5px rgba(0,0,0,0.8);
+   transition: all 0.5s;
+   border:none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+/*estilização do footer*/
+
+footer
+{
+   text-align: center;
+   margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

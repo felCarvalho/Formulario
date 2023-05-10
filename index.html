@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felipe C.">
+    <meta name="description" content="formulário">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Formulário</h1>
+        </div>
+    </header>
+     <main>
+        <div class="div">
+            <img class="imagem" src="img/c05c0590f7050fe26537d63ac7d4e59e.jpg" alt="pessoa com celular na mão">
+        <section>
+            <fieldset class="bordas-fildset">
+                <form class="formulário" action="#">
+                    <label for="nome"> <strong>Nome</strong></label>
+                    <input class="inputs-text"type="text" name="nome" id="" placeholder="Felipe" required>
+
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input class="inputs-text" type="text" name="sobrenome" id="" placeholder="Silva" required>
+
+                    <label for="Nick de usuário"><strong>Nick de usuário</strong></label>
+                    <input class="inputs-text" type="text" name="Nick de usuário" id="" placeholder="Felipe45394" required>
+            </fieldset>
+                </form>
+            <fieldset class="bordas-fildset-pessoal">
+                <form class="formulário-pessoal" action="#">
+                        <div class="subtitulo">
+                            <h3><strong>Sexo:</strong> 
+                            </h3>
+                        </div>
+                        <label for="masculino"><strong>Masculino</strong>                        
+                        <input class="input-radio" type="radio" name="masculino" id="" placeholder="Masculino" required>
+                    </label>
+                        <label for="feminino"><strong>Feminino</strong>
+                        <input class="input-radio-dois" type="radio" name="feminino" id="" placeholder="Feminino" required>
+                    </label>
+                        <label for="outro"><strong>Outro</strong>
+                        <input class="input-radio-tres" type="radio" name="outro" id="" placeholder="outro"  required checked>
+                    </label>
+                    </fieldset>
+                    <div>
+                        <textarea name="escreva mais sobre voce" id="" cols="64" rows="9"  placeholder="escreva mais sobre voce!"></textarea>
+                    </div>
+                </form>
+            </fieldset>
+            <div>
+                <button type="submit"><strong>Enviar</strong></button>
+            </div>
+        </section>
+       </div>
+        <footer>
+            @Felipe.Inc 2023
+        </footer>
+     </main>
+</body>
+</html>
